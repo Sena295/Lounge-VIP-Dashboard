@@ -21,7 +21,7 @@ Open `VIP_Lounges_Performance (In).html` directly in any browser, no server or b
 **Highlights**
 
 - Revenue and passenger volume by lounge and partner airline
-- Paying passenger percentage (total lounge access minus GOL's own)
+- Paying passenger percentage
 - Published vs. corrected EUR/USD rate comparison, with data quality alerts
 - Year-over-year and month-over-month breakdowns
 - Responsive layout, print-friendly
@@ -44,7 +44,7 @@ Paths for the source and output folders are read from environment variables (`VI
 
 ### Tech Stack
 
-`Python` · `openpyxl` · `urllib` · `HTML` · `CSS` · `JavaScript` (SVG-based charts, no external libraries)
+`Python` · `openpyxl` · `urllib` · `HTML` · `CSS` · `JavaScript`
 
 ---
 
