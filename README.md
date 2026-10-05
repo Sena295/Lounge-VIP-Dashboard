@@ -29,9 +29,6 @@ Open `VIP_Lounges_Performance (In).html` directly in any browser, no server or b
 ---
 
 ### Automation Scripts
-
-| Script | What it does |
-|:--|:--|
 | `criar_planilha_input.py` | Rebuilds the VIP lounge input workbook from the latest partner access base, keeping manual entries intact |
 | `fx_collector.py` | Collects and audits daily EUR/USD rates, flagging invalid dates, duplicates, and text-formatted values that Excel's `AVERAGE` silently ignores |
 | `gerar_relatorio.py` | Generates the final HTML dashboard from the input workbook |
