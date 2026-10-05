@@ -33,7 +33,7 @@ Open `VIP_Lounges_Performance (In).html` directly in any browser, no server or b
 | `fx_collector.py` | Collects and audits daily EUR/USD rates, flagging invalid dates, duplicates, and text-formatted values that Excel's `AVERAGE` silently ignores |
 | `gerar_relatorio.py` | Generates the final HTML dashboard from the input workbook |
 
-Built with `openpyxl` for spreadsheet generation and parsing, and plain `urllib` for the exchange rate collection, no external HTTP dependencies.
+Built with `openpyxl` for spreadsheet generation and parsing, and plain `urllib` for the exchange rate collection, no external HTTPS dependencies.
 
 Paths for the source and output folders are read from environment variables (`VIP_LOUNGE_SOURCE_PATH`, `VIP_LOUNGE_OUTPUT_PATH`) rather than hardcoded, so the scripts can run against any equivalent folder structure.
 
@@ -43,8 +43,8 @@ Paths for the source and output folders are read from environment variables (`VI
 
 `Python` · `openpyxl` · `urllib` · `HTML` · `CSS` · `JavaScript`
 
----
+--
 
 ### Note on Data
 
-The dataset shown in the dashboard is illustrative and does not represent real financial figures or actual partner agreements.
+The dataset shown in the dashboard is illustrative and does not represent real financial figures or actual partner agreements
