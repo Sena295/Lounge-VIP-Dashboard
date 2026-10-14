@@ -41,7 +41,7 @@ Paths for the source and output folders are read from environment variables (`VI
 
 ### Tech Stack
 
-`Python` · `openpyxl` · `urllib` · `HTML` · `CSS` · `JavaScript`
+`Python` · `openpyxl` · `HTML` · `CSS` · `JavaScript`
 
 --
 
